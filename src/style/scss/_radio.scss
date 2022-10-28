@@ -1,0 +1,15 @@
+.radio-list {
+    list-style: none;
+    padding: 20px 0 ;
+    margin: 0;
+    
+    li {
+        display: inline-block;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.2px;
+        color: #545454;
+    }
+}

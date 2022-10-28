@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>Web-Forms</title>
+</head>
+<body>
+    <main class="main">
+        <section class="contact">
+            <div class="container">
+                <h2 class="contact-title">Create an Account</h2>
+
+                <form action="#" class="form">
+                    <div class="input-name">
+                        <div class="input-first">
+                            <label class="input-label" for="first-name">First Name</label>
+                            <div class="input-group">
+                                <input class="input" type="text" id="first-name" placeholder="First Name" required>
+                            </div>
+                        </div>
+
+                        <div class="input-last">
+                            <label class="input-label" for="last-name">Last Name</label>
+                            <div class="input-group">
+                                <input class="input" type="text" id="last-name" placeholder="First Name" required>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="input-label" for="email">E-mail</label>
+                    <div class="input-group">
+                        <input class="input-email" type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-text">
+                        <p class="text">We'll never share your email with anyone else.</p>
+                    </div>
+
+                    <ul class="radio-list">
+                        <li>
+                            <div class="input-radio">
+                                <input type="radio" id="male" name="radio-name">
+                                <label for="male">Male</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="input-radio">
+                                <input type="radio" id="female" name="radio-name">
+                                <label for="female">Female</label>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="input-geografy">
+                        <div class="input-select">
+                            <label for="country">Country</label>
+                            <div class="select">
+                                <select name="country" id="country" class="select-country">
+                                    <option value="spain">Spain</option>
+                                    <option value="norway">Norway</option>
+                                    <option value="italy">Italy</option>
+                                    <option value="portugal">Portugal</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-last">
+                            <label class="city" for="city">City</label>
+                            <div class="input-group">
+                                <input class="input" type="text" id="city" placeholder="City" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
